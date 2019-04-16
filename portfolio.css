@@ -1,0 +1,156 @@
+
+#header {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+
+/*background-color: rgb(200, 220, 230);*/
+/*position: fixed;
+top: 0;
+left: 0;
+width: 100%;*/
+
+}
+#navbar {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	display: grid;
+	grid-template-rows: 30px 30px 30px;
+	height: 100vh;
+}
+
+.container{
+	background-color: green;
+	padding: 40px 40px;
+}
+
+@media (max-width: 8in){
+	.container{
+		font-size: 8px;
+		background-color: rgb(0, 100, 100);
+		
+	}
+}
+
+.header-container{
+	background-color: white;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	
+	
+}
+
+#welcome-section {
+	font-size: 18px;
+	color: rgb(200, 100, 100);
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+}
+
+h1{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.page-container{
+	background-color: rgb(200, 220, 230);
+}
+#header{
+	width: 400px;
+	height: 100vmax;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	padding: 30px 30px;
+	border: 3px solid;
+	width: 100vmax;
+	
+}
+#header-img{
+	width: 100px;
+	height: auto;
+	animation-name: logo;
+	
+	position: relative;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes logo{
+	0%{
+		margin-left: -10px;
+	}
+	10%{
+		margin-left: 100px;
+	}
+	20%{
+		margin-left: 200px;
+	
+	}
+	30%{
+		margin-left: 300px;
+	}
+}
+/*
+
+.header-img-2{
+	
+	transform: rotateY(180deg);
+	margin-left: 40px;
+	display: inline-block;
+}
+*/
+
+
+.body-container{
+	
+	display: flex;
+	border: 10px rgb(200, 80, 0);
+	background-color: rgb(200, 80, 0);
+	font-weight: 100;
+	padding: 50px 50px;
+	/* the orange section*/
+}
+
+#projects{
+	display: grid;
+	padding: 10px 10px;
+	margin: 10px 10px;
+	grid-template-rows: 1in 1in 1in 1in 1in;
+}
+/*
+.container{
+	background-color: hsl(40, 12, 35);
+}
+*/
+
+.footer{
+	
+	padding: 20px;
+	margin: 20px 20px 20px 20px;
+	background-color: rgb(22, 90, 150)
+}
+
+#profile-link{
+	color: grey;
+}
+
+#fcc-proflink:hover{
+	color: rgb(200, 40, 0);
+}
+
+/* Didn't work, why?
+.hrs{
+	color: black;
+	background-color: black;
+}
+*/
